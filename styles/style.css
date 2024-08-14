@@ -1,0 +1,51 @@
+.header {
+    margin: 92px 24px 96px;
+    display: grid;
+    grid-template-columns: 454px 332px 266px;
+    grid-template-rows: 22px 105px 98px;
+    weight: 1052px;
+    height: 105px;
+   
+    
+}
+.header__logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 108px 169px 129px;
+    align-items: end;
+    padding-top: 44px;
+    padding-bottom: 39px;
+    
+    
+}
+
+.header__link_non_circle {
+    display: grid;
+    
+    
+    
+}
+
+.header__link_circle {
+    list-style: circle;
+}
+
+.cover {
+    display: flex;
+    width: 1100px;
+    height: 757px;
+    background-color:rgb(0, 0, 0);
+    
+    
+
+
+}
+.background__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 60%;
+}
