@@ -27,6 +27,13 @@ a {
     list-style: circle;
 }
 
+.border__menu_lots {
+    border-bottom: 1px solid black;
+}
+
+.border__menu_about {
+    border-bottom: 1px solid black;
+}
 .header__logo {
     display: grid;
     justify-content: space-around;
@@ -46,15 +53,20 @@ a {
     text-align: left;
     display: flex;
     flex-direction: column;
-}
-
-.number {
     margin-top: 5px;
 }
 
 .address {
     margin-left: 186px;
 }
+
+.number { 
+    border-bottom: 1px solid black;
+}
+.mail {
+    border-bottom: 1px solid black;
+}
+
 
 .cover {
     display: flex;
