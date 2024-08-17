@@ -69,17 +69,21 @@ a {
 
 
 .cover {
-    display: flex;
+    display: grid;
+    
     max-width: 1100px;
     height: 757px;
     background-image: url(/images/cover.jpg);
-    background-size: cover;
+    background-size: 125% auto;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center;
+
     
 }
 .background__opacity {
     display: grid;
+    grid-template-rows: repeat(53, 20px);
+    grid-template-columns: repeat(33, 20px);
     justify-content: space-between;
     width: 1100px;
     height: 757px;
@@ -90,52 +94,86 @@ a {
 
 
 .cover__title {
+    display: grid;
+    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(33, 20px);
     padding-top: 165px;
     
     
 }
 
 .aligned-text {
-    display: block;
     color: white;
     text-transform: uppercase;
 
 }
 
-.aligned-text__left{
-    
+.aligned-text__left {
+    display: grid;
+    grid-template-columns: 106px auto;
+    grid-column: 3;
+    grid-row: 1;
     font-family: Raleway;
-font-size: 100px;
-font-weight: 700;
-line-height: 115px;
-letter-spacing: 0.3em;
-text-align: left;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    padding-left: 10px;
 
+
+}
+
+.aligned-text__letter_o {
+    letter-spacing: 50px;
 }
 
 .aligned-text_center {
+    display: grid;
+    grid-template-columns: 183px auto auto;
+    grid-column: 18;
+    grid-row: 8;
     font-family: Raleway;
-font-size: 100px;
-font-weight: 700;
-line-height: 100px;
-letter-spacing: 0.3em;
-text-align: left;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
+    margin: -5px;
+    justify-items: end;
+
+}
+
+.aligned-text_letter_b {
     
-    text-align: center;
+    letter-spacing: 61px;
+    
 }
 
 .aligned-text_right {
+    display: grid;
+    grid-template-columns: 134px 97px auto;
+    grid-column: 33;
+    grid-row: 14;
     font-family: Raleway;
-font-size: 100px;
-font-weight: 700;
-line-height: 100px;
-letter-spacing: 0.6em;
-text-align: right;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6em;
+    margin: -5px;
+
+}
+
+.aligned-text_letter_d {
+    letter-spacing: 61px;
+}
+
+.aligned-text_letter_o2 {
+    letter-spacing: 30px;
     
-    text-align: right;
 }
 
 .cover__description-text {
+    grid-column: 3/23;
+    grid-row: 34;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 400;
@@ -143,16 +181,27 @@ text-align: right;
     text-align: left;
     text-transform: uppercase;
     color: white;
+    margin: 8px;
+    word-spacing: 19px;
+}
+
+.cover__description-text_auction {
+    word-spacing: 22px;
+}
+
+.cover__description-text_things {
+    word-spacing: 18px;
 }
 
 .btn {
-  
+    grid-column: 24/33;
+    grid-row: 33;
+    margin: 8px;
 }
 
 .bet-button {
     display: block;
-    justify-content: center;
-    align-items: center;
+    text-transform: uppercase;
     background: transparent;
     border: 1px solid white;
     width: 256px;
@@ -162,7 +211,9 @@ text-align: right;
     font-size: 22px;
     font-weight: 500;
     line-height: 25.83px;
+    
 
 
 
 }
+
