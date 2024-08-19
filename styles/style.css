@@ -313,8 +313,7 @@ padding-top: 165px;
 	display: inline;
 	flex-wrap: wrap;
 	width: 254px;
-	height: 360px;
-	margin-bottom: 49px;
+	margin-bottom: 48px;
 	margin-left: 40px;
 	color: white;
 	font-family: Raleway;
@@ -342,8 +341,8 @@ padding-top: 165px;
 	flex-wrap: wrap;
 	align-content: space-around;
 	width: 254px;
-	height: 360px;
 	margin-left: 40px;
+	margin-bottom: 48px;
 	color: white;
 	font-family: Raleway;
 	font-weight: 400;
@@ -371,7 +370,7 @@ padding-top: 165px;
 }
 
 .about {
-	width: 1052px;
+	width: 1075px;
 	height: 595px;
 	margin-top: 181px;
 	padding-left: 71px;
@@ -401,8 +400,7 @@ padding-top: 165px;
 .about__colomn-text {
 	display: flex;
 	flex-direction: column;
-	width: 693px;
-	height: 449px;
+	
 }
 
 .about__title {
