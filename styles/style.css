@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	
 }
 
 body {
@@ -20,7 +21,7 @@ a {
 
 .header__menu {
 	display: grid;
-	grid-template-columns: 99px 182px 111px;
+	grid-template-columns: 99px 182px 143px;
 	padding-top: 44px;
 	padding-left: 27px;
 	font-size: 18px;
@@ -284,9 +285,9 @@ padding-top: 165px;
 	display: inline;
 	align-content: space-around;
 	width: 254px;
-	height: 360px;
+	height: auto;
 	margin-left: 40px;
-	padding-top: 119px;
+	margin-bottom: 48px;
 	color: white;
 	font-family: Raleway;
 	font-weight: 400;
@@ -373,7 +374,7 @@ padding-top: 165px;
 	width: 1052px;
 	height: 595px;
 	margin-top: 181px;
-	margin-left: 71px;
+	padding-left: 71px;
 }
 
 .about__column {
