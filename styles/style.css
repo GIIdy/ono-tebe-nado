@@ -60,6 +60,7 @@ a {
 
 .header__address {
 	display: flex;
+	width: 208px;
 	flex-direction: column;
 	margin-top: 5px;
 	font-weight: 400;
@@ -68,6 +69,7 @@ a {
 	line-height: 24.3px;
 	letter-spacing: 0.01em;
 	text-align: left;
+	
 }
 
 .number {
