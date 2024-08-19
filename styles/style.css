@@ -391,5 +391,155 @@ a {
 .about {
     width: 1052px;
     height: 595px;
-    margin-top: 146px;
+    margin-top: 181px;
+    margin-left: 71px;
+}
+
+.about__column {
+    display: flex;
+    gap: 72px;
+}
+
+.about__colomn-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    background-color: black;
+    
+}
+
+.about__logo{
+    width: 146px;
+}
+
+.about__colomn-text {
+    display: flex;
+    width: 693px;
+    height: 449px;
+
+
+    flex-direction: column;
+
+}
+
+.about__title {
+    display: flex;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-transform: uppercase;
+    margin-top: 102px;
+    margin-bottom: 100px;
+
+
+}
+
+.about__text {
+    display: inline;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 23px;
+    
+
+
+}
+
+.about__text-inerit {
+    word-spacing: 1px;
+}
+
+.about__text-inerit-dnevnik {
+    word-spacing: 4px;
+}
+
+.about__text-inerit-child {
+    word-spacing: 2px;
+}
+
+.about__text-inerit-loys {
+    word-spacing: 3px;
+}
+
+.about__text-inerit-lot {
+    word-spacing: -1px;
+}
+
+.footer {
+    display: flex;
+    width: 1000px;
+    height: 98px;
+    margin: 141px 26px 88px 26px;
+    justify-content: space-between;
+}
+
+.footer__address-text {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.footer__address {
+    width: 240px;
+    margin-left: 24px;
+    
+}
+
+.footer__menu {
+    display: flex;
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 21.13px;
+    letter-spacing: 0.01em;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.footer__link_non_circle {
+    list-style: none;
+}
+
+.footer__border__menu_lots {
+    border-bottom: 1px solid black;
+}
+
+.footer__border__menu_about {
+    border-bottom: 1px solid black;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-right: 24px;
+    padding-top: 5px;
+}
+
+.footer__list-item {
+    width: 48px;
+    height: 48px;
+    list-style: none;
+}
+
+.footer__list_link {
+    margin: 48px 48px;
+    border-radius: 48px;
+}
+
+.footer__social-icon {
+    width: 48px;
+    height: 48px;
 }

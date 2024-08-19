@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="styles/style.css" /> 
   </head>
   <body>
-   <header class="header">
+ <header class="header" id="header">
       <menu style="padding-left: 27px;" >
         <ul class="header__menu">
           <li class="header__link_non_circle">
-            <a href="#0" class="header__link_activ">главная</a>
+            <a href="#header" class="header__link_activ">главная</a>
           </li>
           <li class="header__link_circle">
-            <a class="border__menu_lots"  href="#0" class="header__link">посмотреть лоты</a>
+            <a class="border__menu_lots"  href="#lots" class="header__link">посмотреть лоты</a>
           </li> 
           <li class="header__link_circle">
-            <a class="border__menu_about"   href="#0" class="header__link">об аукционе</a>
+            <a class="border__menu_about"   href="#about" class="header__link">об аукционе</a>
           </li>
         </ul>
       </menu>
@@ -73,7 +73,7 @@
         
 
       </cover>
-      <lots>
+      <lots id="lots">
         <div class="lots">
           <h2 class="lots__title">лоты</h2>
           <ul class="lots__card-list">
@@ -149,13 +149,92 @@
           </div>
         </div>
       </lots>
-      <about>
-        <div class="about"></div>
+      <about id="about">
+        <div class="about">
+          <div class="about__column">
+            <div class="about__colomn-logo">
+              <img class="about__logo" src="images/logo-white.svg">
+            </div>
+            <div class="about__colomn-text">
+              <h2 class="about__title">
+                об аукционе
+              </h2>
+              <p class="about__text">
+                <span class="about__text-inerit"> Здесь вы не встретите 
+                очередное пафосное собрание невероятно </span>
+                дорогого антиквариата. 
+                <span class="about__text-inerit">Наши лоты 
+                вообще не должны были попасть</span>
+                 ни на один аукцион. Потому что кому 
+                 <span class="about__text-inerit-dnevnik">нужен дневник </span>
+                девочки-подростка или картина, которую 
+                <span class="about__text-inerit-child">может нарисовать даже ребёнок?</span> 
+                Кому нужны 
+                <span class="about__text-inerit">все эти странные вещи, созданные любителями?</span>
+              </p>
+              <p class="about__text">
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
+                В пух и прах растерзанные критиками. Непринятые и непонятые. 
+                <span class="about__text-inerit">Когда-то они казались просто неудачными. Но, несмотря на 
+                критику, кажущуюся </span>
+                <span class="about__text-inerit-lot">простоту или сложность, сейчас</span>
+                 без этих лотов невозможно 
+                <span class="about__text-inerit-loys">представить современную культуру.</span> 
+                Когда в эти вещи не верил никто, продолжали верить 
+                их 
+                <span class="about__text-inerit">создатели. И сейчас эти лоты стали культовыми.</span>
+              </p>
+            </div>
+          </div>
+          
+        </div>
       </about>
 
     </main>
     <footer>
-
+      <div class="footer">
+        <address class="footer__address">
+          <div class="footer__address-text">
+            <div>
+              <a class="number" href="tel:+79235335533">+9 999 555 5555</a>
+            </div>
+            <div >
+                <a class="mail" href="mailto:mshbunin@gmail.com">info@sobaka.ge</a>
+            </div>
+            <div>
+                <p>наб. Принсенграхт 263- 265, Амстердам</p>
+            </div>
+          </div>
+        </address>
+        <ul class="footer__menu">
+          <li class="footer__link_non_circle">
+            <a href="#header">главная</a>
+          </li>
+          <li class="footer__link_non_circle">
+            <a class="footer__border__menu_lots"  href="#lots" class="header__link">посмотреть лоты</a>
+          </li> 
+          <li class="footer__link_non_circle">
+            <a class="footer__border__menu_about"   href="#about" class="header__link">об аукционе</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__list_link" href="#0">
+              <img class="footer__social-icon" src="images/yt.svg">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list_link" href="#0">
+              <img class="footer__social-icon" src="images/vk.svg">
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list_link" href="#0">
+              <img class="footer__social-icon" src="images/pinterest.svg">
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
