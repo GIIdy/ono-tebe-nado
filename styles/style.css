@@ -1,6 +1,6 @@
 .header {
 	display: grid;
-	grid-template-columns: 1fr 148px 1fr;
+	grid-template-columns: 458px 306px 1fr;
 	margin: 92px 24px 92px;
 	font-family: 'Raleway' , Arial, Helvetica, sans-serif;
 	
@@ -27,10 +27,6 @@
 .border__menu {
 	border-bottom: 1px solid black;
 }
-.header__logo {
-	display: grid;
-	justify-content: space-around;
-}
 
 .header__logo-image {
 	width: 138px;
@@ -38,7 +34,8 @@
 }
 
 .address {
-	margin-left: 186px;
+	width: 240px;
+	margin-left: 24px;
 }
 
 .address-text {
@@ -327,11 +324,6 @@
 	justify-content: space-between;
 	width: 1048px;
 	margin: 152px 26px 88px 26px;
-}
-
-.footer__address {
-	width: 240px;
-	margin-left: 24px;
 }
 
 .footer__menu {
