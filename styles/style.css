@@ -30,7 +30,6 @@
 .header__logo {
 	display: grid;
 	justify-content: space-around;
-	
 }
 
 .header__logo-image {
@@ -70,8 +69,8 @@
 }
 
 .opacity {
-	background-color: rgb(0 0 0 /.6);
 	max-width: 100%;
+	background-color: rgb(0 0 0 /.6);
 }
 
 .cover__title {
@@ -92,10 +91,10 @@
 }
 
 .aligned-text__left {
-	padding-left: 50px;
-	text-align: start;
-	letter-spacing: 3px;
 	margin-bottom: 12px;
+	padding-left: 50px;
+	letter-spacing: 3px;
+	text-align: start;
 }
 
 .letter-spacing-extended {
@@ -103,14 +102,14 @@
 }
 
 .aligned-text_center {
-	text-align: center;
 	margin-bottom: 5px;
 	padding-left: 3px;
+	text-align: center;
 }
 
 .aligned-text_right {
-	text-align: right;
 	padding-right: 20px;
+	text-align: right;
 }
 
 .letter-spacing-average {
@@ -120,10 +119,10 @@
 .cover__description {
 	display: flex;
 	justify-content: center;
-	gap: 78px;
 	align-items: center;
-	padding-top: 128px;
+	gap: 78px;
 	margin-bottom: 51px;
+	padding-top: 128px;
 }
 
 .cover__description-text {
@@ -197,7 +196,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	
 }
 
 .card__title {
