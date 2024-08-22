@@ -228,25 +228,20 @@
 	line-height: 24px;
 }
 
-.card__text_lot-first-indent {
-	word-spacing: -1px;
+.card__text_negative-indentation {
+	word-spacing: -2px;
 }
 
 .card_type_book {
 	background-image: url(../images/card-lot-02.jpg);
 }
 
-
-.card__text__lot-second-indent {
+.card__text_indent {
 	word-spacing: 2px;
 }
 
 .card_type_picture {
 	background-image: url(../images/card-lot-03.jpg);
-}
-
-.card__text__lot-third-indent {
-	word-spacing: -2px;
 }
 
 .lots__look-more-link {
